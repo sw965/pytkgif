@@ -1,1 +1,1 @@
-from pytkgif import Gif
+from pytkgif.src import Gif
