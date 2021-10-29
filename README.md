@@ -1,5 +1,3 @@
-tkinterでgifを使う為のライブラリ
+tkinterでgifを使う為のライブラリ  
 
-開発環
-python3.5.2  
-windows10
+開発環境 python3.5.2 windows10

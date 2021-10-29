@@ -2,7 +2,7 @@ import tkinter as tk
 from tkinter import messagebox
 from tkinter import filedialog
 import os
-import boa.src
+import boa
 
 class Gif:
     def load_images(file_path):

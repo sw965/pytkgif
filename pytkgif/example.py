@@ -5,6 +5,7 @@ import os
 BASE_DIRECTORY = os.path.dirname(os.path.abspath(__file__))
 
 root = tk.Tk()
+#images is list
 images = pytkgif.Gif.load_images(BASE_DIRECTORY + "/python.gif")
 gif = pytkgif.Gif(root, images[:])
 #gif = pytkgif.Gif(root, images[:-1])
