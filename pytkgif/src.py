@@ -15,13 +15,14 @@ class Gif:
             except tk.TclError:
                 break
             i += 1
+        print(len(result))
         if len(result) == 1:
             return result
-        return result[:-1]
+        return result[:]
 
-    def __init__(self, master, file_path):
+    def __init__(self, master, images):
         self.master = master
-        self.images = Gif.load_images(file_path)
+        self.images = images
         self.image_label = tk.Label(master=master)
         self.__run_animation_method_call_count = 0
 
