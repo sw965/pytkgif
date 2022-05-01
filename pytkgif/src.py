@@ -15,7 +15,6 @@ class Gif:
             except tk.TclError:
                 break
             i += 1
-        print(len(result))
         if len(result) == 1:
             return result
         return result[:]
